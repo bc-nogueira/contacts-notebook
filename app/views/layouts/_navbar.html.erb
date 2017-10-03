@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
   <a class="navbar-brand" href="#">Caderno de Contatos</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -10,6 +10,9 @@
       </li>
       <li class="nav-item <%= "#{cp(about_pages_path)}" %>">
         <%= link_to 'Sobre', about_pages_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item <%= "#{cp(contacts_path)}" %>">
+        <%= link_to 'Contatos', contacts_path, class: 'nav-link' %>
       </li>
     </ul>
   </div>

@@ -9,4 +9,6 @@ Rails.application.routes.draw do
       get :home, :about
     end
   end
+
+  resources :contacts, only: [:index]
 end

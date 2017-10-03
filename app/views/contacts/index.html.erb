@@ -1,0 +1,7 @@
+<% if @contacts.empty? %>
+  <div class="alert alert-danger" role="alert">
+    Não existem contatos!
+  </div>
+<% else %>
+  <%= render partial: 'contacts/contacts', locals: { contacts: @contacts } %>
+<% end %>
