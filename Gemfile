@@ -40,6 +40,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Forms made easy for Rails
+gem 'simple_form'
+# bootstrap-datepicker-rails project integrates a datepicker with Rails 3 assets pipeline.
+gem 'bootstrap-datepicker-rails'
+
 group :development, :test do
   # An IRB alternative and runtime developer console
   gem 'pry', '~> 0.11.1'

@@ -5,3 +5,8 @@
 <% else %>
   <%= render partial: 'contacts/contacts', locals: { contacts: @contacts } %>
 <% end %>
+
+<%= link_to new_contact_path, class: 'btn btn-success btn-success-icon p-0' do %>
+    <i class="fa fa-user-plus align-middle" aria-hidden="true"></i>
+    <span class="align-middle">Adicionar Contato</span>
+<% end %>
